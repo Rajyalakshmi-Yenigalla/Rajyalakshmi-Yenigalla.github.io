@@ -192,7 +192,8 @@
             subject:      subject || 'New enquiry from GreenGrid website',
             message:      message,
             reply_to:     email,
-            toEmail:     toEmail
+            to_email:     toEmail
+            
           },
           EMAILJS_PUBLIC_KEY
         );
